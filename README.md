@@ -1,6 +1,6 @@
 **Final Assembler Project (MAMAN 14) - The Open University of Israel** 
 
-This project implements a full multi-stage assembler in C, developed as part of an academic assignment (MAMAN 14).
+This project implements a full multi-stage assembler in C, developed as part of an academic assignment.
 The assembler processes assembly source files, expands macros, performs a two-pass assembly process, and generates standard output files.
 
 The project emphasizes correctness, modular design, memory awareness, and a clear separation of responsibilities between components.
