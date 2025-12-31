@@ -1,57 +1,51 @@
-**Final Assembler Project (MAMAN 14)**
+**Final Assembler Project (MAMAN 14) - The Open University of Israel** 
 
-Overview
 This project implements a full multi-stage assembler in C, developed as part of an academic assignment (MAMAN 14).
 The assembler processes assembly source files, expands macros, performs a two-pass assembly process, and generates standard output files.
-The project emphasizes correctness, modular design, memory awareness, and clear separation of responsibilities between components.
 
-Features
- Macro expansion (pre-assembler stage)
+The project emphasizes correctness, modular design, memory awareness, and a clear separation of responsibilities between components.
 
- Two-pass assembly (first and second pass)
+**Features**
+* Macro expansion (pre-assembler stage)
+* Two-pass assembly (first and second pass)
+* Symbol table management
+* Validation and detailed error handling
+* Output file generation:
 
- Symbol table management
+  * Object file (`.ob`)
+  * Entry symbols file (`.ent`)
+  * External symbols file (`.ext`)
+* Modular and maintainable C codebase
 
- Validation and detailed error handling
+**Project Structure
+**
+* Pre-assembler (macro processing)
+* First pass: symbol table creation and initial encoding
+* Second pass: address resolution and final encoding
+* Output generation
 
-Output file generation:
-
- Object file (.ob)
-
- Entry symbols file (.ent)
-
- External symbols file (.ext)
-
- Modular and maintainable C codebase
-
-Project Structure
-
-Pre-assembler (macro processing)
-
-First pass: symbol table creation and initial encoding
-
-Second pass: address resolution and final encoding
-
-Output generation
-
-Build Instructions
-
+**Build Instructions**
 Compile the project using:
+```bash
 make
+```
 
-Usage
+**Usage**
 Run the assembler with one or more assembly source files:
-./assembler file1.as file2.as
 
-Technologies
-C (ANSI C90)
-Makefile
-Linux / Unix development environment
-Modular design principles
+```bash
+./assembler file1.as file2.as
+```
+
+**Technologies**
+* C (ANSI C90)
+* Makefile
+* Linux / Unix development environment
+* Modular design principles
 
 Notes
 The project was developed with strict compilation flags and careful memory management, with a strong focus on code readability and maintainability.
 
-Author
-Lihi Toledano & yoval tal
-Computer Science B.Sc. student
+**Authors**
+Lihi Toledano & Yuval Tal
+Computer Science B.Sc. students
