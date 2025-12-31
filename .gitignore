@@ -1,0 +1,11 @@
+# object files
+*.o
+*.out
+*.exe
+
+# IDE
+.idea/
+cmake-build-*/
+
+# OS
+.DS_Store
