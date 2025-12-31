@@ -33,7 +33,7 @@ make
 Run the assembler with one or more assembly source files:
 
 ```bash
-./assembler file1.as file2.as
+./assembler submit_test1.as submit_test2.as
 ```
 
 **Technologies**
