@@ -1,30 +1,28 @@
-Final Assembler Project (MAMAN 14)
-Overview
+**Final Assembler Project (MAMAN 14)**
 
+Overview
 This project implements a full multi-stage assembler in C, developed as part of an academic assignment (MAMAN 14).
 The assembler processes assembly source files, expands macros, performs a two-pass assembly process, and generates standard output files.
-
 The project emphasizes correctness, modular design, memory awareness, and clear separation of responsibilities between components.
 
 Features
+ Macro expansion (pre-assembler stage)
 
-Macro expansion (pre-assembler stage)
+ Two-pass assembly (first and second pass)
 
-Two-pass assembly (first and second pass)
+ Symbol table management
 
-Symbol table management
-
-Validation and detailed error handling
+ Validation and detailed error handling
 
 Output file generation:
 
-Object file (.ob)
+ Object file (.ob)
 
-Entry symbols file (.ent)
+ Entry symbols file (.ent)
 
-External symbols file (.ext)
+ External symbols file (.ext)
 
-Modular and maintainable C codebase
+ Modular and maintainable C codebase
 
 Project Structure
 
@@ -42,25 +40,18 @@ Compile the project using:
 make
 
 Usage
-
 Run the assembler with one or more assembly source files:
 ./assembler file1.as file2.as
 
 Technologies
-
 C (ANSI C90)
-
 Makefile
-
 Linux / Unix development environment
-
 Modular design principles
 
 Notes
-
 The project was developed with strict compilation flags and careful memory management, with a strong focus on code readability and maintainability.
 
 Author
-
-Lihi Toledano
+Lihi Toledano & yoval tal
 Computer Science B.Sc. student
