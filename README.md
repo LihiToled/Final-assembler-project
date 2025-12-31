@@ -17,8 +17,7 @@ The project emphasizes correctness, modular design, memory awareness, and a clea
   * External symbols file (`.ext`)
 * Modular and maintainable C codebase
 
-**Project Structure
-**
+**Project Structure**
 * Pre-assembler (macro processing)
 * First pass: symbol table creation and initial encoding
 * Second pass: address resolution and final encoding
